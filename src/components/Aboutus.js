@@ -26,21 +26,32 @@ const Aboutus = () => {
         </nav>
       </header>
       <div className="main">
-      <div class="contact-container">
-    <h1>About Us</h1>
-    <div class="contact-form">
-    <section class="about-content">
-      <h2>Our Story</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis nunc in lorem pretium, at venenatis nulla volutpat. Sed sit amet pulvinar turpis, nec placerat metus.</p>
-      <p>Integer vitae commodo mi. Integer vulputate nec elit id lobortis. Duis a mi velit. Aliquam semper rhoncus dui, vel scelerisque mauris dapibus sit amet.</p>
-    </section>
-    <section class="about-content">
-      <h2>Our Mission</h2>
-      <p>Quisque sagittis, velit at consequat consectetur, quam sapien commodo justo, at efficitur magna lectus nec orci. Donec commodo turpis eu purus posuere, non fringilla turpis cursus.</p>
-      <p>Nam a massa ultrices, facilisis arcu ut, pellentesque erat. Fusce non dui lorem. Curabitur varius eget leo non varius.</p>
-    </section>
-    </div>
-  </div>
+      
+      <img src="https://stleonardshospice.org.uk/wp-content/uploads/2021/04/STL15-7-20-4-e1617624067774.jpg"/>
+      
+    
+    
+    
+      <h2 style={{color: "#50b1d3", fontSize: "3rem"}}>Our Story.</h2>
+      <h3>10 Years of Hopeful Treasures</h3>
+      <p>We have been providing care and support for our local community for 38 years, ever since the idea of a Hospice in York was suggested by four Royal College of Nursing members. </p>
+      <p>There have been plenty of challenges along the way, from meeting funding requirements, to developing new ways to care and support terminally ill people, those with life limiting conditions, and their families and carers.</p>
+      <p>Meeting the challenges set by the next 38 years depends on your fundraising, legacies and your donations. So please contribute if you can, and help write the next chapter in our story.</p>
+    
+    
+      <h2 style={{color: "#50b1d3", fontSize: "3rem"}}>Our Mission.</h2>
+      <p>Our mission is to help more people across York and North Yorkshire by:</p>
+      <ul>
+        <li>Developing accessible services based on the diverse and changing needs of our population.</li>
+        <li>Campaigning for better public policy and awareness of palliative and end-of-life issues.</li>
+        <li>Encouraging partnership working to improve the quality of care for patients and secure the future of hospice care.</li>
+      </ul>
+
+      <h2 style={{color: "#50b1d3", fontSize: "3rem"}}>Our Vision.</h2>
+      <p>Everyone living with a life-limiting illness has access to the best possible care and will be supported to die well.</p>
+   
+
+  
       </div>
       <footer>
         <div className="container">

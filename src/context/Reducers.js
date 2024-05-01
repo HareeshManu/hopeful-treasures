@@ -85,7 +85,6 @@ export const registerUser = async (dispatch, userData) => {
   dispatch({ type: REGISTER_USER });
   try {
     const response = await axios.post('https://jsonplaceholder.typicode.com/posts', userData);
-console.log('re', response);
     dispatch({ type: REGISTER_USER_SUCCESS, payload: response.data });
   } catch (error) {
     dispatch({ type: REGISTER_USER_ERROR, payload: error.message });

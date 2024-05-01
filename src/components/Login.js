@@ -31,7 +31,6 @@ const Login = () => {
       initialValues,
       validationSchema: LoginSchema,
       onSubmit: (values, action) => {
-        console.log(values);
               setTimeout(() => {
         authDispatch({
             type: "LOGIN",
